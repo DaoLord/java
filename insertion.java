@@ -7,7 +7,7 @@ class insertion{
     System.out.println();
   }
   public static void main(String[]args) {
-    int arr[]={1,5,3,81,4,5,2};
+    int arr[]={9,5,1,4,3};
     //insertion sort
     for (int i=1;i<arr.length;i++){
       int current=arr[i];
