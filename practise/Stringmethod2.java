@@ -12,6 +12,8 @@ public class Stringmethod2{
     name.getChars(2,7,chaArr,0);
     for(char c:chaArr){
     System.out.println(c);//trims empty space before and after the worlds
+      //compare
+      
     } 
     
  }

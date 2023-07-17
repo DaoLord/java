@@ -1,4 +1,4 @@
-public class Aa{
+public class Stringmethod1{
   public static void main(String[]args) {
     String a= "helloworld";
     String s1="hello ";
@@ -9,8 +9,9 @@ public class Aa{
     Boolean in="Hello".equals("hello");
     Boolean aaa="Hello".equalsIgnoreCase("Hello");
     Boolean bbb="Hello".equalsIgnoreCase("hello");
-    String output=s1.concat(s2);
-    System.out.println(output+System.lineSeparator()
+    String output=s1.concat(s2); //concats hello and world.
+    System.out.println(
+      output+System.lineSeparator() //prints concatted world together.
       +a.length()+System.lineSeparator()
       +a.charAt(4)+System.lineSeparator() 
       +a.substring(3)+System.lineSeparator()
@@ -18,7 +19,7 @@ public class Aa{
       +s.indexOf("d") +System.lineSeparator()
       +s3.indexOf("rn",3)+System.lineSeparator()
       +in+System.lineSeparator() //Checks equals Hello and hello 
-      +out+System.lineSeparator() //checks equal Hello and hello
+      +aaa+System.lineSeparator() //checks equal Hello and hello
       +aaa+System.lineSeparator() // checks equal with ignore
       +bbb+System.lineSeparator() //checks equal with ignore
     );
