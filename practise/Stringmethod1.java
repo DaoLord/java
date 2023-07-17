@@ -19,7 +19,7 @@ public class Stringmethod1{
       +s.indexOf("d") +System.lineSeparator()
       +s3.indexOf("rn",3)+System.lineSeparator()
       +in+System.lineSeparator() //Checks equals Hello and hello 
-      +aaa+System.lineSeparator() //checks equal Hello and hello
+      +in+System.lineSeparator() //checks equal Hello and hello
       +aaa+System.lineSeparator() // checks equal with ignore
       +bbb+System.lineSeparator() //checks equal with ignore
     );
