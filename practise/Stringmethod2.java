@@ -13,8 +13,6 @@ public class Stringmethod2{
     for(char c:chaArr){
     System.out.println(c);//trims empty space before and after the worlds
       //compare
-      
-    } 
-    
+      }
  }
 }
