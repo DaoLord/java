@@ -1,0 +1,3 @@
+java ko .class(byte code) is portable as are runnable in all environment i.e. linux, mac OS, windows..
+agadi nay bhako code lay boiler place.
+
