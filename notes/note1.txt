@@ -1,3 +1,5 @@
 java ko .class(byte code) is portable as are runnable in all environment i.e. linux, mac OS, windows..
 agadi nay bhako code lay boiler place.
+java scanner ko nextLine ma "L" capital.
+need + " " + for space in between outputs i.e. System.out.println(fname + " " + lname);
 
