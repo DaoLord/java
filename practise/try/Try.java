@@ -1,4 +1,4 @@
-public class Try1 {
+public class Try {
     public static void main(String[] args) {
         String[] men = {"ram", "sam", "hari", "dami", "kami"};
         
