@@ -3,7 +3,7 @@ public class Example1 {
   public static void main(String[] args) {
         
     try{
-        FileOutputStream fout = new FileOutputStream ("text.txt");
+        FileOutputStream fout = new FileOutputStream ("text1.txt");
         fout.write(65);
         fout.write(66);
         fout.write(67);
