@@ -1,0 +1,6 @@
+example1 -- creates text file containing character abcde
+example2 -- creates text file containing string
+example3 -- read character from text1.txt text file  
+example4 -- read string form text2.txt text file containing string
+example5 -- creates text file containing character with buffer
+example6 -- creates text file containing string with buffer
