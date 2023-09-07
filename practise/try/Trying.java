@@ -1,23 +1,22 @@
-public class Trying {
-    // Method to add two integers
+
+class Overriding {
+    // Method to add two numbers
     public int add(int a, int b) {
         return a + b;
     }
+}
 
-    // Method to add two doubles
-    public double add(double a, double b) {
-        return a + b;
+public class Trying extends Overriding {
+    // Method overriding: Override the add method in the superclass
+    @Override
+    public int add(int a, int b) {
+        return a + b + 10; // Add 10 to the result
     }
 
     public static void main(String[] args) {
         Trying calculator = new Trying();
 
-        // Using the add method with integers
-        int sum1 = calculator.add(5, 3); // Calls the first add method (int version)
-        System.out.println("Sum of integers: " + sum1); // Output: Sum of integers: 8
-
-        // Using the add method with doubles
-        double sum2 = calculator.add(7.5, 2.5); // Calls the second add method (double version)
-        System.out.println("Sum of doubles: " + sum2); // Output: Sum of doubles: 10.0
+        int sum = calculator.add(7, 3); // Calls the overridden add method
+        System.out.println("Sum with overriding: " + sum); // Output: Sum with overriding: 20
     }
 }
