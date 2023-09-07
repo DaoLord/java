@@ -1,4 +1,3 @@
-
 public class Trying {
     // Method to add two integers
     public int add(int a, int b) {
@@ -11,7 +10,7 @@ public class Trying {
     }
 
     public static void main(String[] args) {
-        Calculator calculator = new Calculator();
+        Trying calculator = new Trying();
 
         // Using the add method with integers
         int sum1 = calculator.add(5, 3); // Calls the first add method (int version)
