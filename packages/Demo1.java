@@ -6,7 +6,6 @@ public class Demo1 {
     System.out.println(Integer.toString(69));
     System.out.println(Integer.toBinaryString(152));
     System.out.println(Integer.toHexString(152));
-    System.out.println(Integer.toOctalString(152));
 
   }
 }
