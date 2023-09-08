@@ -1,4 +1,3 @@
-import java.lang.Math;
 public class Demo {
   public static void main(String[] args) {
     double x = 100;
