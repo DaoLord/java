@@ -1,5 +1,4 @@
 import java.util.List;
-import java.util.Iterator;
 public class Listing {
   public static void main(String[] args) {
     List<String> Names = List.of("Roshan", "Oshan", "koshan");
