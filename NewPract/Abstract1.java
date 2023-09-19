@@ -3,7 +3,7 @@ class Dog{
   public String getWord(){
     return word;
   }
-  public void setWord(String NewWord){
+  public void setWord(String newWord){
     this.word = newWord;
   }
 }
