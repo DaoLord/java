@@ -1,4 +1,4 @@
-public class buffer{
+public class Buffer{
   public static void main(String[]args) {
     StringBuffer sb=new StringBuffer("java");
     sb.append("is not done in joy");
