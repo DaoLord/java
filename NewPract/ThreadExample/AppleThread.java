@@ -1,11 +1,11 @@
-class MyThread extends Thread{
+class Apple extends Thread{
   public void run(){
     System.out.println("running");
   }
 }
 public class AppleThread {
   public static void main(String[] args) {
-    MyThread Apple = new MyThread();
+    Apple Apple = new Apple();
     Thread A = new Thread(Apple);
     A.run();
 
