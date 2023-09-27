@@ -11,3 +11,9 @@ public class AppleThread {
 
   }
 }
+//first create class that extends thread
+//then create method run() with statements
+//then create main class with main method
+//then created new object from class
+//then create new thread with Thread(class name)
+//then run as A.run();
