@@ -8,7 +8,7 @@ public class Apple {
     A.add(300);
     A.add(400);
     System.out.println("Queued Data Output");
-    for(Integer item: queue)
+    for(Integer num : A)
     System.out.println(num);
 
   }
