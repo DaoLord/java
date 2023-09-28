@@ -1,19 +1,19 @@
 interface A{
-  void run(){
-    System.out.println("output one");
-  }
+  void run();
 }
 interface B{
-  void ran(){
-    System.out.println("output two");
-  }
+  void ran();
 }
 class C implements A,B{
+  public void run(){
+    System.out.println("output two");
+  }
+  public void ran(){
+    System.out.println("output one");
+  }
   void cat(){
-    A obj = new A();
-    obj.run();
-    obj.ran();
-
+    run();
+    ran();
   }
 }
 public class PractiseClass {
