@@ -10,7 +10,7 @@ class Data{
 public class Encap {
   public static void main(String[] args) {
     Data d = new Data();
-   d.setName("BishnuLimbu");
+    d.setName("BishnuLimbu");
     System.out.println(d.getName());
   }
 }
